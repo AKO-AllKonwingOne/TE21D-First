@@ -1,17 +1,36 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
+/*
+Todo: How should my hangman work
+    - Choose a word
+    - Static
+    - List
+    - User input
+    - User input (guesses)
+    - Check user input
+    - Check if letter is in the word
+    - Multiple instances?
+    - Check were letter is
+    - Print the letter
+    - Life counter
+    - Loop til done
+    - No more life
+    - Word complete
+        - Loop until your done
+ */
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Skift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Skift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        public static void howInputandOutputWorks(); {
+            System.out.println("Hello and welcome!");
+            System.out.println("To print in the console type:");
+            System.out.println("sout + tab");
+            Scanner myScan = new Scanner(System.in);
+            String input = myScan.nextLine();
+            System.out.println(myScan);
         }
+
+
+
     }
 }
